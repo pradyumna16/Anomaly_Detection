@@ -13,6 +13,7 @@ The structure of the code is as follows:
       
       a.	If the age of the model is more than 5 days old:
             Then it trains from the latest data and then updates the existing model- by adding the new weights to the old model.
+      
       b.	If the age of the model is less than 5 days old
           	Then it predicts and outputs the result and displays anomaly. 
             
